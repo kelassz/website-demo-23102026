@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JUICY. — Fresh Juice, Better Days</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header class="container">
+    <nav>
+      <a href="#" class="logo">ZAHILJUICE<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#products">Our Juices</a>
+        <a href="#about">Our Story</a>
+        <button class="cart-button" id="cartButton">
+          Cart (<span id="cartCount">0</span>)
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div>
+        <span class="eyebrow">Freshly made, every day</span>
+
+        <h1>
+          Good days<br>
+          start with<br>
+          <span>good juice.</span>
+        </h1>
+
+        <p>
+          Real fruit. Fresh flavours. No unnecessary fuss.
+          Give your day a little sunshine with our freshly
+          prepared juices.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">
+            Explore our juices →
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Our story
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="uwp5096211.png"
+          alt="Fresh orange juice"
+        >
+        <div class="image-label">
+          <strong>100% sunshine.</strong>
+          A little freshness goes a long way.
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="container">
+      <div class="benefits">
+        <div class="benefit">
+          <span class="benefit-icon">🍊</span>
+          Fresh fruit flavours
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">🌿</span>
+          Made fresh to order
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">☀️</span>
+          Good vibes, always
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products-section container" id="products">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">The good stuff</span>
+          <h2>Meet your new<br>favourite sip.</h2>
+          <p>Simple ingredients. Beautiful flavours.</p>
+        </div>
+      </div>
+
+      <div class="products">
+
+        <article class="product-card">
+          <div class="product-image orange-bg">
+            <img
+              src="https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=700&q=85"
+              alt="Fresh orange juice"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <h3>Sunshine Orange</h3>
+            <p>Bright, citrusy and full of refreshing flavour.</p>
+            <div class="product-bottom">
+              <span class="price">RM 8.00</span>
+              <button class="add-button"
+                data-name="Sunshine Orange" data-price="8"
+                aria-label="Add Sunshine Orange to cart">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image green-bg">
+            <img
+              src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=700&q=85"
+              alt="Fresh green juice"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <h3>Green Glow</h3>
+            <p>A refreshing green blend for your daily routine.</p>
+            <div class="product-bottom">
+              <span class="price">RM 10.00</span>
+              <button class="add-button"
+                data-name="Green Glow" data-price="10"
+                aria-label="Add Green Glow to cart">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image pink-bg">
+            <img
+              src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=85"
+              alt="Fresh strawberry drink"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <h3>Berry Bliss</h3>
+            <p>Sweet berry flavours with a bright, fruity finish.</p>
+            <div class="product-bottom">
+              <span class="price">RM 9.00</span>
+              <button class="add-button"
+                data-name="Berry Bliss" data-price="9"
+                aria-label="Add Berry Bliss to cart">+</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about container" id="about">
+      <div class="about-visual">
+        <div>
+          <span>🍋</span>
+          <h3>Fresh is our thing.</h3>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <span class="eyebrow">A little about us</span>
+        <h2>Life is better<br>with a little lemon zest.</h2>
+        <p>
+          We believe the little things make a big difference.
+          That's why we're passionate about serving refreshing
+          juices with vibrant flavours and ingredients chosen
+          with care.
+        </p>
+        <p>
+          Whether it's your morning pick-me-up or an afternoon
+          treat, there's always a good reason to grab a juice.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="container">
+      <div class="cta">
+        <h2>Feeling thirsty?</h2>
+        <p>
+          Your next favourite drink is just a few clicks away.
+          Pick your flavour and let's make your day fresher.
+        </p>
+        <a href="#products" class="btn">Find your flavour →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <a href="#" class="logo">JUICY<span>.</span></a>
+    <p>Fresh flavours. Better days. © <span id="year"></span> JUICY.</p>
+    <a href="#products">Back to top ↑</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Simple shopping cart
+    const cart = {};
+    const cartCount = document.getElementById("cartCount");
+    const toast = document.getElementById("toast");
+    let toastTimer;
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2200);
+    }
+
+    document.querySelectorAll(".add-button").forEach(button => {
+      button.addEventListener("click", () => {
+        const name = button.dataset.name;
+        const price = Number(button.dataset.price);
+
+        if (!cart[name]) {
+          cart[name] = { price, quantity: 0 };
+        }
+
+        cart[name].quantity++;
+
+        const totalItems = Object.values(cart).reduce(
+          (sum, item) => sum + item.quantity, 0
+        );
+
+        cartCount.textContent = totalItems;
+        showToast(name + " added to your cart!");
+      });
+    });
+
+    document.getElementById("cartButton").addEventListener("click", () => {
+      const items = Object.entries(cart);
+
+      if (items.length === 0) {
+        showToast("Your cart is empty. Pick a juice first!");
+        return;
+      }
+
+      const summary = items.map(([name, item]) =>
+        `${name} x ${item.quantity} — RM ${(item.price * item.quantity).toFixed(2)}`
+      );
+
+      const total = items.reduce(
+        (sum, [name, item]) => sum + item.price * item.quantity, 0
+      );
+
+      alert(
+        "YOUR JUICY ORDER\n\n" +
+        summary.join("\n") +
+        "\n\nTotal: RM " + total.toFixed(2) +
+        "\n\nContact us to complete your order!"
+      );
+    });
+  </script>
+
+</body>
+</html>
